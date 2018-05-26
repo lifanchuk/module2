@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ex</title>
+</head>
+<body>
+
+
+
+</body>
+
+<script>
+var l;
+var j = 0;
+var k = 0;
+
+////Перший цикл
+
+console.log("Перший цикл:");
+
+for(var i = 0; i < 100; i++)
+{
+    l = i;
+	if(i % 3 == 0 && i != 0)
+	{
+	    l = "Fizz";
+	}
+	if(i % 5 == 0 && i != 0)
+	{
+	    l = "Buzz";
+	}
+	if(i % 15 == 0 && i != 0)
+	{
+	    l = "FizzBuzz";
+	}
+	console.log(l);
+}
+
+////другий цикл
+
+console.log("Другий цикл:");
+
+while(j < 100){
+   
+   j++;
+   l = j;
+	if(j % 3 == 0 && j != 0)
+	{
+	    l = "Fizz";
+	}
+	if(j % 5 == 0 && j != 0)
+	{
+	    l = "Buzz";
+	}
+	if(j % 15 == 0 && j != 0)
+	{
+	    l = "FizzBuzz";
+	}
+	console.log(l);
+}
+////Треті цикл
+
+console.log("Третій цикл:");
+
+do {
+    k++;
+	l = k;
+	if(k % 3 == 0 && k != 0)
+	{
+	    l = "Fizz";
+	}
+	if(k % 5 == 0 && k != 0)
+	{
+	    l = "Buzz";
+	}
+	if(k % 15 == 0 && k != 0)
+	{
+	    l = "FizzBuzz";
+	}
+	console.log(l);	
+} while (k < 100)
+
+</script>
+
+</html>
